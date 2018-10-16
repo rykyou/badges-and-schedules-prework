@@ -12,7 +12,7 @@ end
 
 def assign_rooms (array)
   assigned_rooms_array = []
-  array.each_with_index.map { |name, index|
+  array.each_with_index { |name, index|
     index += 1
     assigned_rooms_array << "Hello, #{name}! You'll be assigned to room #{index}!"
   }
