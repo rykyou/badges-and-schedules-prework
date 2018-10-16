@@ -3,11 +3,11 @@ def badge_maker (name)
 end 
 
 def batch_badge_creator (array)
-  array_of_badge_messages = []
+  badge_messages_array = []
   array.each { |name| 
-    array_of_badge_messages << "Hello, my name is #{name}."
+    badge_messages_array << "Hello, my name is #{name}."
   }
-  return array_of_badge_messages
+  return badge_messages_array
 end 
 
 def assign_rooms (array)
